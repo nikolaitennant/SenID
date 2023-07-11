@@ -1,0 +1,41 @@
+name: SenID
+
+channels:
+  - apple
+  - conda-forge
+  - pytorch-nightly
+
+dependencies:
+  - python=3.9.16
+  - pip
+  - jupyter
+  - jupyterlab
+  - scikit-learn
+  - scipy
+  - pandas
+  - opencv
+  - pytorch 
+  - torchvision 
+  - lime
+  - pandas-datareader
+  - matplotlib
+  - numpy
+  - pillow
+  - tqdm
+  - h5py
+  - pyyaml
+  - pandoc
+  - ipywidgets
+  - requests
+  - flask
+  - boto3
+  - ipykernel
+  - pip:
+      - setuptools>=41.2
+      - tensorflow-macos
+      - tensorflow-metal
+      - imageio==2.9
+      - bayesian-optimization
+      - gym
+      - cellpose
+      - kaggle
